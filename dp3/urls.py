@@ -23,4 +23,7 @@ urlpatterns = [
     path('home',views.home,name="home"),
     path('htmlout',views.htmlout,name="htmlout"),
     path('htmlin',views.htmlin,name="htmlin"),
+    path('third/',views.third,name="third"),
+    path('fourth/',views.fourth,name="fourth"),
+    path('fifth/',views.fifth,name="fifth"),
 ]
